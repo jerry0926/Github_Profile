@@ -38,7 +38,10 @@ class App extends Component {
                 <a href={val.html_url} target='_blank'><span className='profile_name'>{val.name}</span></a>
                 <div className='profile_content'>
                   {val.description}
-                  <p>Link : <a href={val.html_url} target='_blank'>{val.html_url}</a></p>
+                  <p style={{
+                    position: 'absolute',
+                    bottom: '10px'
+                  }}>Link : <a href={val.html_url} target='_blank'>{val.html_url}</a></p>
                 </div>
               </div>)
           }
@@ -52,7 +55,7 @@ class App extends Component {
             </div>
             <div>
               <p>媽媽桃</p>
-              <div style={{marginTop: '120px'}}>(網頁已關閉)</div>
+              <div style={{ marginTop: '120px' }}>(網頁已關閉)</div>
             </div>
             <div>
               <p>桃園律師公會</p>

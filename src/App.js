@@ -59,6 +59,12 @@ class App extends Component {
               <a href='http://www.tybar.org.tw' target='_blank'><img src={logo_2} /></a>
             </div>
           </div>
+          <p style={{
+            fontSize: '18px',
+            color: '#312c29',
+            marginTop: '40px',
+            textAlign: 'center'
+          }}>❇因目前從事博弈相關產業，恕無法提供相關作品</p>
         </div>
       </div>
     );
